@@ -1,0 +1,1 @@
+mogrify *.* -resize '295x295^' -gravity Center -crop 295x295+0+0 *.*

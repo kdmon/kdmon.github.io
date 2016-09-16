@@ -1,0 +1,17 @@
+# Site settings
+title: Karl Didrik Monsen
+description: "Professional portfolio for Karl Didrik Monsen"
+author: Karl Didrik Monsen
+url: "http://kdmon.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+#permalink: pretty
+#permalink: /blog/:year/:month/:day/:title
+paginate: 27
+collections:
+  portfolio:
+    output: true
+
+    

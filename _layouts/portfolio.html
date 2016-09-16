@@ -1,0 +1,88 @@
+---
+layout: default
+---
+      {% capture the_collection %}{{page.collection}}{% endcapture %}
+      {% if page.collection %}
+        {% assign  document = site[the_collection]  %}
+      {% endif %}
+      {% for links in document  %}
+        {% if links.title == page.title %}
+          {% unless forloop.first %}
+            {% assign prevurl = prev.url %}
+          {% endunless %}
+          {% unless forloop.last %}
+            {% assign next = document[forloop.index] %}
+            {% assign nexturl = next.url %}
+          {% endunless %}
+        {% endif %}
+        {% assign prev = links %}
+      {% endfor %}
+
+      <div style="background: {{page.bg}} url('/img/{{page.header}}') no-repeat right center; 
+    background-size: auto 15em; color: {{page.fg}};" class="jumbotron">
+        <div class="container">
+          <h1>{{page.title}}</h1>
+          <p>{{page.lead}}</p>
+                    
+          
+          {% if prevurl %}
+          <a href="{{prevurl}}" class="btn btn-success pull-left">
+            <i class="fa fa-fw fa-caret-left"></i>Previous project
+          </a>
+          {% endif %}
+          
+
+          {% if nexturl %}
+          <a href="{{nexturl}}" class="btn btn-success pull-left">
+            Next project<i class="fa fa-fw fa-caret-right"></i>
+          </a>
+          {% endif %}   
+          
+          <a href="/" style="font-weight: 600" class="btn btn-success active pull-left">
+            <i class="fa fa-fw fa-home"></i> Home
+          </a>
+              
+        </div>
+      </div>
+        
+        
+        
+        <div class="container">
+          {{content}}
+            
+          {% if page.images %}
+            <div id="myCarousel" class="carousel well slide" data-ride="carousel">
+              {% assign counter=0 %}
+              <ol class="carousel-indicators">
+              {% for image in page.images %}
+                <li data-target="#myCarousel" data-slide-to="{{counter}}" class="{% if counter < 1 %}active{% endif %}"></li>
+              {% assign counter=counter | plus:1 %} 
+              {% endfor %}
+              </ol>
+              <div class="carousel-inner">
+                {% assign counter=0 %}
+                {% for image in page.images %}
+                <div class="item {% if counter == 0 %}active{% endif %}">
+                  <img src="/img/{{image.url}}" alt="{{image.caption}}" style="width: 100%">
+                  <p style="color: black"><br/>{{image.caption}}</p>
+                </div>         
+              {% assign counter=counter | plus:1 %} 
+              {% endfor %}
+              </div>
+            </div>   
+          {% endif %}
+          
+          {% if page.credits %}
+          <div class="row">
+            <div class="col-sm-12">
+            <h3>Collaborators</h3>
+            <p style="font-size:1em">{{ page.credits }}</p>
+            </div>
+          </div>
+          {% endif %}
+          
+        </div>
+        
+        {{footer}}
+        
+        

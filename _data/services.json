@@ -1,0 +1,37 @@
+[
+  {
+  "id": "app-design",
+  "icon": "tablet",
+  "label": " App Design"
+  },
+  {
+  "id": "art",
+  "icon": "paint-brush",
+  "label": "Creative"
+  },
+  {
+  "id": "game-design",
+  "icon": "gamepad",
+  "label": " Game Design"
+  },
+  {
+  "id": "db-design",
+  "icon": "newspaper-o",
+  "label": "Information Design"
+  },
+  {
+  "id": "research",
+  "icon": "flask",
+  "label": "Research"
+  },
+  {
+  "id": "training",
+  "icon": "mortar-board",
+  "label": "Teaching & Training"
+  },
+  {
+  "id": "web-design",
+  "icon": "code",
+  "label": "Web Design"
+  }
+]

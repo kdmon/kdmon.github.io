@@ -1,0 +1,59 @@
+---
+layout: default
+title: Portfolio
+---
+
+      <div style="background: #1a1011 url('/img/tap.jpg') no-repeat center center;  color: white;" class="jumbotron">
+  
+        <div class="container">
+          <h1>Portfolio</h1>
+          <p>Explore selected projects</p>
+          <div class="dropdown pull-left ">
+            <button class="btn btn-lrg btn-success  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true"> Sector<span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              {% for sector in site.data.sectors %}
+              <li>
+                <a href="#" class="filter" data-filter=".{{sector.id}}">
+                  <i class="fa fa-fw fa-{{sector.icon}}"></i> {{sector.label}}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>        
+          <div class="dropdown pull-left ">
+            <button class="btn btn-lrg btn-success dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true">  Service<span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              {% for service in site.data.services %}
+              <li>
+                <a href="#" class="filter" data-filter=".{{service.id}}">
+                  <i class="fa fa-fw fa-{{service.icon}}"></i> {{service.label}}
+                </a>
+              </li> 
+              {% endfor %}
+            </ul>
+          </div>
+          <a href="#" style="font-weight: 600" class="btn btn-success filter active" data-filter="all">View All</a>
+        </div>
+      </div>
+
+      <div class="container clearfix" style="background: white" id="portfolio-list">
+        {% for project in site.portfolio %}
+        <div data-name="{{ project.url }}" class="mix col-xs-6 col-sm-6 col-md-4  portfolio-item {{project.service | join: ' '}} {{project.sector | join: ' '}}" 
+        data-cat=" {{project.service | join: ' '}} {{project.sector | join: ' '}}">
+          <img class="portfolio-cover-image" src="/img/thumb/{{ project.cover }}" />
+          <a class="portfolio-link" href="{{ project.url }}">
+            <div class="portfolio-details" style="background: {{project.bg }}; color: {{project.fg}}">
+              <h1>{{ project.title }}</h1>
+              <h3>{{ project.lead }}</h3>
+              <span style="display:none">{{project.service | join " " }} in {{project.sector | join " "}}</span>
+            </div>
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+
+    </div>
+    
+    <div class="container" style="height: 200px;"><br/></div>

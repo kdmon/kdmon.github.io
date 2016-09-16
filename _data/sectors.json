@@ -1,0 +1,37 @@
+[
+  {
+  "id": "art-design",
+  "icon": "paint-brush",
+  "label": "Art and Design"
+  },
+  {
+  "id": "education",
+  "icon": "book",
+  "label": "Education"
+  },
+  {
+  "id": "finance",
+  "icon": "bank",
+  "label": "Finance"
+  },
+  {
+  "id": "heritage",
+  "icon": "map-marker",
+  "label": "Heritage"
+  },
+  {
+  "id": "healthcare",
+  "icon": "ambulance",
+  "label": "Healthcare"
+  },
+  {
+  "id": "technology",
+  "icon": "desktop",
+  "label": "Information Technology"
+  },
+  {
+  "id": "social-enterprise",
+  "icon": "heart-o",
+  "label": "Social Enterprise"
+  }
+]
