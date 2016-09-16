@@ -32,7 +32,8 @@ credits: Dr Brian McClelland
   
   <h3>Site preview</h3>
 
-  <div class="col-sm-12">
-    <iframe style="border: 3px solid silver; width: 100%; height: 500px;" src="http://optimalblooduse.eu"></iframe> 
+  <p>
+    You can visit the website at: <a href="http://optimalblooduse.eu" target="_blank">http://optimalblooduse.eu</a>
+  </p>
   </div>
 
