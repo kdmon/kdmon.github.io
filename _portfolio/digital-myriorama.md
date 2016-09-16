@@ -29,7 +29,7 @@ fg: white
     </p>
     <img style="margin: 2em 0 2em 0" class="col-xs-12 col-md-12" src="/img/inthefields/telescope-wide.png">
     <h3>Further information</h3>
-    <p>Read more about the work on <a href="http://www.in-the-fields.org/exhibit/yen-to-see-distant-places/" target="_blank">Nichole and Stefan's website</a>.
+    <p>Read more about the work on <a href="http://www.in-the-fields.org/exhibit/yen-to-see-distant-places/" target="_blank">Nichole and Stefan's website <i class="fa fa-external-link"></i></a>.
     </p> 
   </div>
 

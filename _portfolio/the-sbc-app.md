@@ -39,5 +39,8 @@ credits: Dr Brian McClelland (medical advisor) and Scottish National Blood Trans
       <a href="/img/specialblood/shot-abstract.pdf" style="text-decoration: none">
         <h3 class="well"><i class="fa fa-fw fa-mortar-board"></i> Download the abstract</h3>
       </a>
+      <a href="http://optimalblooduse.eu/app/" target="_blank" style="text-decoration: none">
+        <h3 class="well"><i class="fa fa-fw fa-tablet"></i> Preview the SBC App </h3>
+      </a>
     </div>
   </div>

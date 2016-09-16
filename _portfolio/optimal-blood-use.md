@@ -19,13 +19,13 @@ credits: Dr Brian McClelland
   <div class="col-sm-6">
     <h2>Responsibilities</h2>
     <p>
-      I was approached by a retired transfusion consultant who needed help to look after a website. I migrated the original web site to a content management system (Drupal) and have maintained the website since. 
+      I was approached by a retired transfusion consultant who was looking for someone to maintain the original OBU website. I helped him migrate the original web site to a content management system (Drupal), and I have maintained the website since.
     </p>
   </div>
   <div class="col-sm-6">
     <h2>Achievements</h2>
     <p>
-      I ported the website, which was quite large, in about two weeks without any down time. The new website is easy to update, is better indexed by search engines and it is easier for users to browse and find information on the site. Moreover, the new site is responsive and adapts according to screen size, and can be hosted on a minimal budget for posterity.
+      I ported the website, which was quite large, in about two weeks without any down time. The new website is easy to update, is better indexed by search engines and it is easier for users to browse and find information on the site. Moreover, the new site is responsive and adapts according to screen size, and it can be hosted on a minimal budget for posterity.
     </p>
   </div>
   </div>
@@ -33,6 +33,6 @@ credits: Dr Brian McClelland
   <h3>Site preview</h3>
 
   <p>
-    Visit the website at: <a href="http://optimalblooduse.eu" target="_blank">http://optimalblooduse.eu</a>
+    Visit the website at: <a href="http://optimalblooduse.eu" target="_blank">http://optimalblooduse.eu <i class="fa fa-external-link"></i></a>
   </p>
 
