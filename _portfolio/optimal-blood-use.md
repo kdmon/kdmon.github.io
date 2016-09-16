@@ -33,7 +33,6 @@ credits: Dr Brian McClelland
   <h3>Site preview</h3>
 
   <p>
-    You can visit the website at: <a href="http://optimalblooduse.eu" target="_blank">http://optimalblooduse.eu</a>
+    Visit the website at: <a href="http://optimalblooduse.eu" target="_blank">http://optimalblooduse.eu</a>
   </p>
-  </div>
 
