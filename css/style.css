@@ -77,10 +77,6 @@ body {
   border: 1px solid #aaa;
 }
 
-.carousel-inner {
-    min-height: 700px;
-}
-
 .carousel-inner .item {
     overflow: hidden;
     max-width: 100%;
