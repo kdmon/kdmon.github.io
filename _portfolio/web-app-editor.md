@@ -22,12 +22,12 @@ bg: "#def"
     <div class="col-sm-6">
       <h2>Responsibilities</h2>
       <p>
-        From start to finish.
+        Inspired by cloud-based code editors, I created and piloted the WAE over several years while I was teaching web programming to beginners and conducting action research in the healthcare sector. Using feedback from students and research participants, I gradually improved it and added new features, such as: real-time collaborative editing, file handling, a more configurable user interface, chat, video conferencing, and more.
       </p>
     </div>
     <div class="col-sm-6">
       <h2>Achievements</h2>
-      <p>List of achievements</p>
+      <p>The editor came to play a critical role in my teaching and collaborative design research activities. I also use it frequently in both professional and hobby projects because it speeds up the prototyping process by making visualising and modifying concepts quick.</p>
     </div>
   </div>
 
