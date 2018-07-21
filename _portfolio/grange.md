@@ -2,6 +2,7 @@
 layout: portfolio
 title: Grange Audio Guide
 lead: Geolocative Local History
+year: 2012
 service: [app-design, research]
 sector: [heritage]
 cover: grange.jpg
@@ -20,7 +21,7 @@ credits: Prof Jon Oberlander (supervisor), The Grange Association (content) and 
         I designed and evaluated the system as part of a six month dissertation project during my Masters in Informatics at the University of Edinburgh. The guide was created using the Google Maps API, the HTML5 audio and positioning APIs, as well as the speech synthesis API offered by Cereproc.
       </p>
       <p>
-        I worked with a local community group, the Grange Association, to trial the system and presented the evaluation results at the 2013 NordiCHI workshop on Audience Engagement.
+        I worked with a local community group, the Grange Association, to trial the system and presented the evaluation results at the 2012 NordiCHI workshop on Audience Engagement.
       </p>
     </div>
 

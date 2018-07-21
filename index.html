@@ -3,15 +3,16 @@ layout: default
 title: Portfolio
 ---
 
-      <div style="background: #1a1011 url('/img/tap.jpg') no-repeat center center;  color: white;" class="jumbotron">
+      <div style="background: rgb(31, 22, 17) url('/img/tap.jpg') no-repeat center center; padding-top: 6em; color: white;" class="jumbotron">
   
         <div class="container">
           <h1>Portfolio</h1>
           <p>Explore selected projects</p>
+          
           <div class="dropdown pull-left ">
-            <button class="btn btn-lrg btn-success  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true"> Sector<span class="caret"></span>
+            <button class="btn btn-lrg btn-success  dropdown-toggle" type="button" id="sector-dropdown" data-toggle="dropdown" aria-haspopup="true"> Sector<span class="caret"></span>
             </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <ul class="dropdown-menu" aria-labelledby="sector-dropdown">
               {% for sector in site.data.sectors %}
               <li>
                 <a href="#" class="filter" data-filter=".{{sector.id}}">
@@ -20,11 +21,12 @@ title: Portfolio
               </li>
               {% endfor %}
             </ul>
-          </div>        
+          </div>       
+          
           <div class="dropdown pull-left ">
-            <button class="btn btn-lrg btn-success dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true">  Service<span class="caret"></span>
+            <button class="btn btn-lrg btn-success dropdown-toggle" type="button" id="service-dropdown" data-toggle="dropdown" aria-haspopup="true"> Tag<span class="caret"></span>
             </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <ul class="dropdown-menu" aria-labelledby="service-dropdown">
               {% for service in site.data.services %}
               <li>
                 <a href="#" class="filter" data-filter=".{{service.id}}">
@@ -34,20 +36,40 @@ title: Portfolio
               {% endfor %}
             </ul>
           </div>
-          <a href="#" style="font-weight: 600" class="btn btn-success filter active" data-filter="all">View All</a>
+
+          <div class="dropdown pull-left">
+            <button class="btn btn-lrg btn-success  dropdown-toggle" type="button" id="year-dropdown" data-toggle="dropdown" aria-haspopup="true"> Year<span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="year-dropdown">
+              <li><a href="#" class="filter" data-filter=".year-2016">2016</a></li>
+              <li><a href="#" class="filter" data-filter=".year-2015">2015</a></li>
+              <li><a href="#" class="filter" data-filter=".year-2014">2014</a></li>
+              <li><a href="#" class="filter" data-filter=".year-2013">2013</a></li>
+              <li><a href="#" class="filter" data-filter=".year-2012">2012</a></li>
+            </ul>
+          </div>
+          
+          <a id="view-all" href="#" style="box-shadow: 0px 0px 30px 0px #39a; margin-left:0; display: none; text-decoration: none; font-weight: 600;" class="btn btn-info filter active" data-filter="all">Show All</a>
+          
+          <a title="Sort by name" href="#" style="text-decoration: none; font-weight: 600" class="btn btn-success sort pull-right" data-sort="name:asc"><i class="fa fa-sort-alpha-asc"></i></a>
+          
+          <a title="Sort by year" href="#" style="text-decoration: none; font-weight: 600" class="btn btn-success sort pull-right" data-sort="year:desc"><i class="fa fa-sort-amount-desc"></i></a>
+          
         </div>
       </div>
 
       <div class="container clearfix" style="background: white" id="portfolio-list">
         {% for project in site.portfolio %}
-        <div data-name="{{ project.url }}" class="mix col-xs-6 col-sm-6 col-md-4  portfolio-item {{project.service | join: ' '}} {{project.sector | join: ' '}}" 
-        data-cat=" {{project.service | join: ' '}} {{project.sector | join: ' '}}">
+        <div data-name="{{ project.url}}" data-year="{{project.year}}" class="mix col-xs-6 col-sm-6 col-md-4 portfolio-item year-{{project.year}} {{project.service | join: ' '}} {{project.sector | join: ' '}}"         data-cat="year-{{project.year}} {{project.service | join: ' '}} {{project.sector | join: ' '}}">
           <img class="portfolio-cover-image" src="/img/thumb/{{ project.cover }}" />
           <a class="portfolio-link" href="{{ project.url }}">
             <div class="portfolio-details" style="background: {{project.bg }}; color: {{project.fg}}">
+              <p style="text-align:center;">{{project.year}}</p>
               <h1>{{ project.title }}</h1>
               <h3>{{ project.lead }}</h3>
-              <span style="display:none">{{project.service | join " " }} in {{project.sector | join " "}}</span>
+              <span style="display:none">
+                {{project.service | join " " }} in {{project.sector | join " "}}
+              </span>
             </div>
           </a>
         </div>

@@ -2,20 +2,21 @@
 layout: portfolio
 title: The SBC App
 lead: Award-Winning Medical App
+year: 2016
 service: [app-design,]
 sector: [education, healthcare]
 cover: sbc-logo.jpg
 header: specialblood/header.png
 bg: "#034"
 fg: white
-credits: Dr Brian McClelland (medical advisor) and Scottish National Blood Transfusion Service
+credits: Dr Brian McClelland (medical advisor) and the Better Blood Tranfusion team at the Scottish National Blood Transfusion Service.
 ---
 
 
   <div class="row">
     <div class="col-sm-8">
       <p class="lead">
-        The SBC App is a mobile learning intervention aimed at Healthcare Practitioners in Transfusion Medicine. It aims to promote the correct use of irradiated and Cytomegalovirus negative blood components, a challening area where mistakes a frequently reported due to inadequate practitioner knowledge.
+        The SBC App is a mobile learning intervention for Healthcare Practitioners in Transfusion Medicine. It aims to promote the correct use of irradiated and Cytomegalovirus negative blood components; a challening area where mistakes are frequently reported.
       </p>
       
       <h3>Responsibilities</h3>
@@ -40,7 +41,7 @@ credits: Dr Brian McClelland (medical advisor) and Scottish National Blood Trans
         <h3 class="well"><i class="fa fa-fw fa-mortar-board"></i> Download the abstract</h3>
       </a>
       <a href="http://optimalblooduse.eu/app/" target="_blank" style="text-decoration: none">
-        <h3 class="well"><i class="fa fa-fw fa-tablet"></i> Preview the SBC App </h3>
+        <h3 class="well"><i class="fa fa-fw fa-tablet"></i> Explore the SBC App </h3>
       </a>
     </div>
   </div>

@@ -1,21 +1,24 @@
-body {
-  padding-top: 40px;
-}
-
 html {
   position: relative;
   min-height: 100%;
 }
+
 body {
+  padding-top: 40px;
   /* Margin bottom by footer height */
   margin-bottom: 14em;
 }
 
+.navbar {
+  font-size: 1.2em;
+  background: rgb(31, 22, 17);
+}
+
  @media screen and (max-width: 640px) {
-    .jumbotron {
-        background-size: 10em !important;
-        background-position: right top !important;
-    }
+  .jumbotron {
+    background-size: 10em !important;
+    background-position: right top !important;
+  }
 }
 
 .footer {

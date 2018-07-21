@@ -2,6 +2,7 @@
 layout: portfolio
 title: Site Redesign
 lead: Multilingual Blood Transfusion Manual 
+year: 2012
 service: [web-design]
 sector: [healthcare, education]
 cover: obu-logo.jpg

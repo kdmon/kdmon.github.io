@@ -2,6 +2,7 @@
 layout: portfolio
 title: Interactive Gallery
 lead: Explore Art in 3D
+year: 2015
 service: [art, web-design]
 sector: [art-design]
 cover: interactive-gallery.jpg

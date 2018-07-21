@@ -2,6 +2,7 @@
 layout: portfolio
 title: Workshop
 lead: 3D Printing and Rapid Prototyping
+year: 2013
 cover: monster.jpg
 header: oleus/header.jpg
 bg: "#642"
@@ -41,21 +42,21 @@ images:
       Working as a team of three, I planned and faciliated each step of the workshop. It started of with an ideation phase where participants were encouraged to develop ideas with paper, plasticine and wool. We also introduced  digital photography as a way to capture physical objects using photogrammetry.
     </p>
     <p>
-      Once concepts were ready, participants moved on to realising them using the 3D modelling package Sculptris. The designs were then fabricated using professional and entry-level 3D printers, and the workshop concluded with a focus group discussing the outcomes with participants. You can read more about the outcome in <a href="/img/oleus/crafting-public-space.pdf" target="_blank">the publication</a>.
+      Once concepts were ready, participants moved on to realising them using the 3D modelling package Sculptris. The designs were then fabricated using professional and entry-level 3D printers, and the workshop concluded with a focus group discussing the outcomes with participants. Read more in <a href="/img/oleus/crafting-public-space.pdf" target="_blank">the publication</a>.
     </p>
     </div>
       
     <div class="col-sm-4 ">
+      <img style="width:100%" src="/img/oleus/monster.jpg">
       <a href="/img/oleus/crafting-public-space.pdf" style="text-decoration: none">
         <h3 class="well"><i class="fa fa-fw fa-mortar-board"></i> Download the paper</h3>
       </a>
-      <img style="width:100%" src="/img/oleus/monster.jpg">
     </div>
   </div>
   
-  <h2>Reactions from participants</h2>
+  <h3>Comments from participants</h3>
 
-  <div class="clearfix row">
+  <div class="clearfix row" style="margin-top:2em">
     <p class="col-sm-4">
       <q>It's broken the mystery of 3D printing.</q> (Jeweller)
     </p>

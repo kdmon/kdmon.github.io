@@ -2,6 +2,7 @@
 layout: portfolio
 title: The Broonie
 lead: Augmented Reality Storytelling
+year: 2014
 header: broonie-vision.jpg
 service: [art, game-design, research]
 sector: [art-design]

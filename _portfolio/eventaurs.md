@@ -2,6 +2,7 @@
 layout: portfolio
 title: Eventaurs
 lead: Language Elicitation in Non-verbal Children
+year: 2013
 service: [game-design, research]
 sector: [research]
 cover: eventaurs.jpg
@@ -30,7 +31,7 @@ credits: Dr Margaret McGonigle (lead), Stephen Elphick (animations), Graham Sort
     </p>
     
     <h3>Further information</h3>
-    <p>Read more about Eventaurs on <a href="http://www.psy.ed.ac.uk/affiliated_faculty/maggie_mcGonigle.php" target="_blank">Dr McGonigle's homepage</a>.
+    <p>Read more about Eventaurs on <a href="http://www.psy.ed.ac.uk/affiliated_faculty/maggie_mcGonigle.php" target="_blank">Dr McGonigle's homepage <i class="fa fa-fw fa-external-link"></i></a>
     </p>
   </div>
 
@@ -41,7 +42,7 @@ credits: Dr Margaret McGonigle (lead), Stephen Elphick (animations), Graham Sort
     Your browser does not support the video tag.
     </video> 
     <a href="http://link.springer.com/article/10.1007%2Fs10803-012-1753-z" target="_blank" style="text-decoration: none">
-      <h3 class="well"><i class="fa fa-fw fa-mortar-board"></i> Abstract of the paper</h3>
+      <h3 class="well"><i class="fa fa-fw fa-mortar-board"></i> Read the abstract <i class="fa fa-fw fa-external-link"></i></h3>
     </a>
   </div>
 

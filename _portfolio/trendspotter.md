@@ -2,6 +2,7 @@
 layout: portfolio
 title: Trendspotter
 lead: A Game With a Purpose
+year: 2013
 service: [art, game-design, research]
 sector: [art-design]
 cover: dia.jpg
